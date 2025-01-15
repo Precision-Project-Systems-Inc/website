@@ -1,0 +1,13 @@
+{{ define "main" }}
+  <div class="container pv4 pv6-1 ph3 ph4-ns">
+    <div class="block description pv4 pv6-1 ph3 ph4-ns">
+      {{ .Content }}
+    </div>
+    <div class="block patch-notes pv4 pv6-1 ph3 ph4-ns">
+      <h1>Getting Started</h1>
+      {{ with .Site.GetPage "documentation" "getting-started.md" }}
+        {{ .Content }}
+      {{ end }}
+    </div>
+  </div>
+{{ end }}

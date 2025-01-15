@@ -1,0 +1,25 @@
+.container {
+    display: flex;
+}
+.block {
+    flex: 1;
+    box-sizing: border-box;
+}
+.description {
+    background-color: #000000;
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+}
+
+.description a {
+    color: white;
+}
+
+.patch-notes {
+    background-color: #e0e0e0;
+}
+
+.t1 {
+    font-size: 16px;
+    margin-bottom: 20px;
+}

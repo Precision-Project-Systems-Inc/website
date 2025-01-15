@@ -1,0 +1,10 @@
+{{ define "main" }}
+<div class="pv4 pv6-1 ph3 ph4-ns">
+  <h1>{{ .Title }}</h1>
+  <h3>{{ .Content }}</h3>
+  {{ range where .Site.RegularPages.ByWeight "Type" "docs" }}
+    <h2 id="{{ .Title }}">{{ .Title }}</h2>
+    {{ .Content }}
+  {{ end }}
+</div>
+{{ end }}

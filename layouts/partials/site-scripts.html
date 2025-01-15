@@ -1,0 +1,7 @@
+{{- $js := resources.Get "scripts/typingEffect.js" -}}
+{{- $opts := dict
+  "params" (dict "main_descriptors" site.Params.main_descriptors)
+-}}
+{{- $js = $js | js.Build $opts -}}
+<script src="{{ $js.Permalink }}"></script>
+  

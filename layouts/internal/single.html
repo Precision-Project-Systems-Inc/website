@@ -1,0 +1,14 @@
+{{ define "main" }}
+    {{ range .Site.AllPages }}
+        <h2><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></h2>
+            {{ if .Resources }}
+            <ul>
+                {{ range .Resources }}
+                <li><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
+                {{ end }}
+            </ul>
+            {{ else }}
+            <p>No resources found.</p>
+            {{ end }}
+    {{ end }}
+{{ end }}

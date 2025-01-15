@@ -1,0 +1,20 @@
+baseURL = 'https://dummychain.com'
+languageCode = 'en-us'
+title = "DummyChain"
+theme = 'ananke'
+copyright = 'Precision Project Systems' 
+
+[params]
+    site_logo = "logos/dummychain-nav-logo-white.png"
+    main_descriptors = ["project tracking", "data versioning", "general checksum hashing"]
+    custom_css = ["custom.css"]
+
+[menus]
+    [[menus.main]]
+        name = "Docs"
+        pageRef = '/documentation'
+        weight = 20
+    [[menus.main]]
+        name = "Github"
+        url = 'https://github.com/Precision-Project-Systems-Inc/dummychain'
+        weight = 30
