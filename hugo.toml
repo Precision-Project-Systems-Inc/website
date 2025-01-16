@@ -1,4 +1,4 @@
-baseURL = 'https://dummychain.com'
+baseURL = 'https://www.dummychain.com'
 languageCode = 'en-us'
 title = "DummyChain"
 theme = 'ananke'
