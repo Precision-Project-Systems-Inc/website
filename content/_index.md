@@ -15,4 +15,4 @@ DummyChain is a blockchain implementation that wraps around your workspace. Its 
 - Lightweight; the entire chain's data could be stored on a few files
 - Open-source
 
-For support, consultation, tokenization, and audits, contact [Precision Project Systems](precisionprojectsystems@outlook.com).
+For support, consultation, tokenization, and audits, contact [Precision Project Systems](mailprecisionprojectsystems@outlook.com).
